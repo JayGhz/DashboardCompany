@@ -18,12 +18,12 @@ export const SidebarRoutesData = [
     {
         icon: Building2,
         label: "Companies",
-        href: "//companies",
+        href: "/companies",
     },
     {
         icon: Calendar,
         label: "Calendar",
-        href: "//tasks",
+        href: "/tasks",
     }
 ];
 
