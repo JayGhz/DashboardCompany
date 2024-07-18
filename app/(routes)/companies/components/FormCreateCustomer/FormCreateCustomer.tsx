@@ -140,7 +140,7 @@ export function FormCreateCustomer(props: FormCreateCustomerProps) {
                                 <FormLabel>Profile image</FormLabel>
                                 <FormControl>
                                     {photoUploaded ? (
-                                        <p className="text-green-500">Photo uploaded</p>
+                                        <p className="text-sm">Photo uploaded</p>
                                     ) : (
                                         <UploadButton
                                             className="bg-slate-600/20 text-slate-800 rounded-lg outline-dotted outline-3"
@@ -150,7 +150,7 @@ export function FormCreateCustomer(props: FormCreateCustomerProps) {
                                                 setPhotoUploaded(true);
                                             }}
                                             onUploadError={(error: Error) => {
-                                                console.error("error");
+                                                console.log("error");
                                             }}
 
                                         />
